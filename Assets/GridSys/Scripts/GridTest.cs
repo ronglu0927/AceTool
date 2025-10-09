@@ -1,7 +1,5 @@
-using System.Collections.Generic;
 using CodeMonkey.Utils;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GridTest : MonoBehaviour
 {
@@ -9,6 +7,7 @@ public class GridTest : MonoBehaviour
 
     void Start()
     {
+        // AceFox
         mGrid = new Grid(3, 3, 3, this.transform.position);
     }
 
